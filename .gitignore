@@ -1,0 +1,20 @@
+# Личные данные: архив VK и скачанные фото никогда не коммитим
+Archive*.zip
+*.zip
+VK_Photos/
+progress.db*
+progress.lock
+
+# Окружение и сборка
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+
+# Логи запусков и служебное
+*.log
+*.err
+.pytest_cache/
+.claude/
